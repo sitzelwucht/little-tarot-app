@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-app.use(static('website'))
+app.use(express.static('website'))
 
 app.listen(3000, () => {
     console.log('Running on localhost:3000')

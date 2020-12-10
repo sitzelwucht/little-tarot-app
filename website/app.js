@@ -14,17 +14,10 @@ const descRev = document.querySelector('.reversed-div')
 const pic = document.querySelector('.pic')
 
 
-
-//  window.onload = (function() {
-//     wrapper.classList.add('hidden') 
-//     clearCanvas()   
-//  })
-
-
 button.addEventListener('click', function() {
     clearCanvas()
 
-    setTimeout(tarot, 2000);
+    setTimeout(tarot, 1600);
 })
 
 
